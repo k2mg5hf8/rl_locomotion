@@ -1,0 +1,55 @@
+{
+  "os": "Linux-6.8.0-57-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.9.21",
+  "startedAt": "2025-04-20T22:19:39.577554Z",
+  "args": [
+    "--name",
+    "cms_dagger",
+    "--exptid",
+    "2",
+    "--loadpth",
+    "../../../../data/rsg_a1_task/0001",
+    "--loadid",
+    "12000",
+    "--gpu",
+    "0",
+    "--overwrite"
+  ],
+  "program": "/home/dima/RMA/raisimlib/raisimGymTorch/raisimGymTorch/env/envs/dagger_a1/dagger.py",
+  "codePath": "raisimGymTorch/env/envs/dagger_a1/dagger.py",
+  "git": {
+    "remote": "git@github.com:k2mg5hf8/rl_locomotion.git",
+    "commit": "b72d8c0cdec59a0dfc5d034d9a00f7fb7891d5d9"
+  },
+  "email": "dima.ploticloud.com@mail.ru",
+  "root": "/home/dima/RMA/raisimlib/raisimGymTorch/raisimGymTorch/env/envs/dagger_a1",
+  "host": "dima-MS-7E27",
+  "executable": "/home/dima/miniconda3/envs/cms/bin/python",
+  "codePathLocal": "dagger.py",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "210241560576",
+      "used": "160485191680"
+    }
+  },
+  "memory": {
+    "total": "33385115648"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4060 Ti",
+      "memoryTotal": "8585740288",
+      "cudaCores": 4352,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.2"
+}

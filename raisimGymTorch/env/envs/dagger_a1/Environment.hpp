@@ -125,7 +125,7 @@ namespace raisim
       READ_YAML(double, ang_speed, cfg["ang_speed"])
       READ_YAML(double, terrain_freq, cfg["terrainFreq"])
 
-      a1_ = world_->addArticulatedSystem(resourceDir_ + "/a1/urdf/a1.urdf");
+      a1_ = world_->addArticulatedSystem(resourceDir_ + "/aliengo/aliengo.urdf");
       a1_->setName("a1");
       a1_->setControlMode(raisim::ControlMode::PD_PLUS_FEEDFORWARD_TORQUE);
 
